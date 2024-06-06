@@ -11,15 +11,14 @@
   </style>
 </head>
 <body>
-<iframe title="مؤشرات الاداء (5)" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=9007c9c2-d3ad-44ff-b06a-d74b5b2cce3f&autoAuth=true&ctid=4b406f13-3265-4229-9704-887aac1e6980" frameborder="0" allowFullScreen="true"></iframe>
-  <script>
+<iframe title="مؤشرات الأداء 6" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=d790e84f-bc84-4550-a36c-5b99e5c2c4e4&autoAuth=true&ctid=4b406f13-3265-4229-9704-887aac1e6980" frameborder="0" allowFullScreen="true"></iframe>  <script>
     function refreshReport() {
       // Refresh the report by reloading the iframe source
       document.getElementById('powerbi-embed').src = '[EMBEDDED_REPORT_URL]';
     }
 
-    // Refresh the report every 5 minutes (300000 milliseconds)
-    setInterval(refreshReport, 2000);
+    // Refresh the report every 2 minutes (300000 milliseconds)
+    setInterval(refreshReport, 30000);
   </script>
 </body>
 </html>
